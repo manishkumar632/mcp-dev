@@ -8,7 +8,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "node --watch src/index.js",
+    "dev": "node --watch src/http.js",
     "start": "node src/index.js",
     "inspect": "npx @modelcontextprotocol/inspector node src/index.js"
   },
@@ -27,6 +27,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@modelcontextprotocol/express": "^2.0.2",
+    "@modelcontextprotocol/node": "^2.1.2",
     "@modelcontextprotocol/server": "^2.4.0",
     "zod": "^4.6.7"
   }
