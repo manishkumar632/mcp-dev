@@ -1,35 +1,16 @@
 {
   "name": "mcp-dev",
   "version": "1.0.0",
-  "description": "A Model Context Protocol development server",
-  "type": "module",
-  "main": "src/index.js",
-  "engines": {
-    "node": ">=20"
-  },
+  "description": "A JavaScript MCP server with a greeting tool and a small allowlist of local diagnostic commands.",
+  "main": "index.js",
   "scripts": {
-    "dev": "node --watch src/http.js",
-    "start": "node src/index.js",
-    "inspect": "npx @modelcontextprotocol/inspector node src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manishkumar632/mcp-dev.git"
-  },
-  "bugs": {
-    "url": "https://github.com/manishkumar632/mcp-dev/issues"
-  },
-  "homepage": "https://github.com/manishkumar632/mcp-dev#readme",
-  "keywords": [
-    "mcp",
-    "model-context-protocol"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@modelcontextprotocol/express": "^2.0.2",
-    "@modelcontextprotocol/node": "^2.1.2",
-    "@modelcontextprotocol/server": "^2.4.0",
-    "zod": "^4.6.7"
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
   }
 }
